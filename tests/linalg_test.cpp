@@ -3,8 +3,9 @@
 #include <gmock/gmock.h>
 
 // Local Includes
-#include <c_linalg/c_linalg.h>
+#include <linalg/matrix.h>
+#include <linalg/vector.h>
 
-namespace c_linalg_testing {
+namespace linalg_testing {
 
-} // namespace c_linalg_testing
+} // namespace linalg_testing
