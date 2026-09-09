@@ -1,0 +1,5 @@
+#ifndef C_LINEAR_ALGEBRA_VECTOR_H
+#define C_LINEAR_ALGEBRA_VECTOR_H
+
+
+#endif // #ifndef C_LINEAR_ALGEBRA_VECTOR_H
