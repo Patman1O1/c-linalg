@@ -5,7 +5,7 @@
 #include <stdlib.h>
 
 #define linalg_matrix_at(m, i, j) \
-    i * m.m_num_cols + j
+    i * (m).m_num_cols + j
 
 struct linalg_matrix {
     size_t m_num_rows;
