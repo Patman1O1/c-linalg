@@ -13,7 +13,7 @@ add_library(c_linalg::c_linalg ALIAS c_linalg)
 # Target sources
 target_sources(c_linalg
     PRIVATE
-        ${CMAKE_CURRENT_SOURCE_DIR}/vector.c
+        ${CMAKE_CURRENT_SOURCE_DIR}/fraction.c
         ${CMAKE_CURRENT_SOURCE_DIR}/matrix.c
 )
 
