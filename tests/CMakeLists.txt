@@ -27,7 +27,8 @@ add_executable(c_linalg::c_linalg_test
 # Target sources
 target_sources(c_linalg_test
     PRIVATE
-        ${CMAKE_SOURCE_DIR}/src/c_linalg.c
+        ${CMAKE_SOURCE_DIR}/src/fraction.c
+        ${CMAKE_SOURCE_DIR}/src/matrix.c
         ${CMAKE_CURRENT_SOURCE_DIR}/c_linalg_test.cpp
 )
 
