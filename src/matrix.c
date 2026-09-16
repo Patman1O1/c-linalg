@@ -1,7 +1,10 @@
+// ISO Includes
 #include <math.h>
+#include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
 
+// Local Includes
 #include <linalg/matrix.h>
 
 #define EPSILON 1e-9
